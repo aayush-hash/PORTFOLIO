@@ -9,6 +9,8 @@ export const generateToken = (user,message,statusCode,res)=>{
                   message,
                   token,
                   user,
+             sameSite:"None",
+               secure:true,
 
             });
       };
